@@ -1,0 +1,62 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.2.11415.280
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+		nuget.config = nuget.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Devart.AI.McpServer", "Devart.AI.McpServer\Devart.AI.McpServer.csproj", "{51478E82-3D60-4659-BAB7-73D1E4254A2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Devart.AI.McpServer.Odbc", "Devart.AI.McpServer.Odbc\Devart.AI.McpServer.Odbc\Devart.AI.McpServer.Odbc.csproj", "{2F9C1D26-5DB5-4734-BD4B-F9A77C1EB56D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Devart.AI.McpServer.Odbc.Ase", "Devart.AI.McpServer.Odbc\Devart.AI.McpServer.Odbc.Ase\Devart.AI.McpServer.Odbc.Ase.csproj", "{CBED8DDB-E3AE-4416-9A47-36A1B5C8371B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		DebugAse|Any CPU = DebugAse|Any CPU
+		DebugAse|x86 = DebugAse|x86
+		ReleaseAse|Any CPU = ReleaseAse|Any CPU
+		ReleaseAse|x86 = ReleaseAse|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51478E82-3D60-4659-BAB7-73D1E4254A2A}.DebugAse|Any CPU.ActiveCfg = Debug|Any CPU
+		{51478E82-3D60-4659-BAB7-73D1E4254A2A}.DebugAse|Any CPU.Build.0 = Debug|Any CPU
+		{51478E82-3D60-4659-BAB7-73D1E4254A2A}.DebugAse|x86.ActiveCfg = Debug|x86
+		{51478E82-3D60-4659-BAB7-73D1E4254A2A}.DebugAse|x86.Build.0 = Debug|x86
+		{51478E82-3D60-4659-BAB7-73D1E4254A2A}.ReleaseAse|Any CPU.ActiveCfg = Release|Any CPU
+		{51478E82-3D60-4659-BAB7-73D1E4254A2A}.ReleaseAse|Any CPU.Build.0 = Release|Any CPU
+		{51478E82-3D60-4659-BAB7-73D1E4254A2A}.ReleaseAse|x86.ActiveCfg = Release|x86
+		{51478E82-3D60-4659-BAB7-73D1E4254A2A}.ReleaseAse|x86.Build.0 = Release|x86
+		{2F9C1D26-5DB5-4734-BD4B-F9A77C1EB56D}.DebugAse|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F9C1D26-5DB5-4734-BD4B-F9A77C1EB56D}.DebugAse|Any CPU.Build.0 = Debug|Any CPU
+		{2F9C1D26-5DB5-4734-BD4B-F9A77C1EB56D}.DebugAse|x86.ActiveCfg = Debug|x86
+		{2F9C1D26-5DB5-4734-BD4B-F9A77C1EB56D}.DebugAse|x86.Build.0 = Debug|x86
+		{2F9C1D26-5DB5-4734-BD4B-F9A77C1EB56D}.ReleaseAse|Any CPU.ActiveCfg = Release|Any CPU
+		{2F9C1D26-5DB5-4734-BD4B-F9A77C1EB56D}.ReleaseAse|Any CPU.Build.0 = Release|Any CPU
+		{2F9C1D26-5DB5-4734-BD4B-F9A77C1EB56D}.ReleaseAse|x86.ActiveCfg = Release|x86
+		{2F9C1D26-5DB5-4734-BD4B-F9A77C1EB56D}.ReleaseAse|x86.Build.0 = Release|x86
+		{CBED8DDB-E3AE-4416-9A47-36A1B5C8371B}.DebugAse|Any CPU.ActiveCfg = DebugAse|Any CPU
+		{CBED8DDB-E3AE-4416-9A47-36A1B5C8371B}.DebugAse|Any CPU.Build.0 = DebugAse|Any CPU
+		{CBED8DDB-E3AE-4416-9A47-36A1B5C8371B}.DebugAse|x86.ActiveCfg = DebugAse|x86
+		{CBED8DDB-E3AE-4416-9A47-36A1B5C8371B}.DebugAse|x86.Build.0 = DebugAse|x86
+		{CBED8DDB-E3AE-4416-9A47-36A1B5C8371B}.ReleaseAse|Any CPU.ActiveCfg = ReleaseAse|Any CPU
+		{CBED8DDB-E3AE-4416-9A47-36A1B5C8371B}.ReleaseAse|Any CPU.Build.0 = ReleaseAse|Any CPU
+		{CBED8DDB-E3AE-4416-9A47-36A1B5C8371B}.ReleaseAse|x86.ActiveCfg = ReleaseAse|x86
+		{CBED8DDB-E3AE-4416-9A47-36A1B5C8371B}.ReleaseAse|x86.Build.0 = ReleaseAse|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {456EC27D-1D60-470B-A266-44E164F5B06E}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Version\Version.projitems*{2f9c1d26-5db5-4734-bd4b-f9a77c1eb56d}*SharedItemsImports = 5
+		Version\Version.projitems*{51478e82-3d60-4659-bab7-73d1e4254a2a}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal
